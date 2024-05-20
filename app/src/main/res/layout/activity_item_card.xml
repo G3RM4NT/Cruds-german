@@ -23,6 +23,20 @@ app:cardElevation="4dp"
             android:layout_weight="1"
             android:text="TextView"
             android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imgEliminar"
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_borrar" />
+
+        <ImageView
+            android:id="@+id/imgEditar"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_editar" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

@@ -12,7 +12,8 @@ import kotlinx.coroutines.withContext
 import Modelo.Conexion
 
 
-class Adaptador(private var Datos: List<dataClassMascotas>) : RecyclerView.Adapter<ViewHolder>() {
+class
+Adaptador(private var Datos: List<dataClassMascotas>) : RecyclerView.Adapter<ViewHolder>() {
 
 
     fun ActualizarLista(nuevalista: List<dataClassMascotas>){
